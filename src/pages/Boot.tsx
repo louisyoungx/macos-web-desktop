@@ -21,7 +21,7 @@ export default function Boot({ restart, sleep, setBooting }: BootProps) {
 
   useInterval(
     () => {
-      const newPercent = percent + 0.30;
+      const newPercent = percent + 0.3;
       if (newPercent >= 100) {
         setTimeout(() => {
           setBooting(false);

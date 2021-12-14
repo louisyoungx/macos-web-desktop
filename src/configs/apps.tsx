@@ -3,7 +3,7 @@ import Terminal from "../components/apps/Terminal";
 import Safari from "../components/apps/Safari";
 import Bear from "../components/apps/Bear";
 import VSCode from "../components/apps/VSCode";
-import Tubon from "../components/apps/Turbon"
+import Tubon from "../components/apps/Turbon";
 
 import type { AppsData } from "../types";
 

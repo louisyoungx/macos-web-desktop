@@ -78,7 +78,7 @@ const launchpadApps: LaunchpadData[] = [
     title: "ESXi",
     img: "img/icons/esxi.svg",
     link: "https://www.louisyoung.site:4430/ui/#/login"
-  },
+  }
 ];
 
 export default launchpadApps;
