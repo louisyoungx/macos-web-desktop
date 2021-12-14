@@ -11,8 +11,8 @@ import Boot from "./pages/Boot";
 
 export default function App() {
   const [login, setLogin] = useState<boolean>(false);
-  const [booting, setBooting] = useState<boolean>(false);
-  const [restart, setRestart] = useState<boolean>(false);
+  const [booting, setBooting] = useState<boolean>(true);
+  const [restart, setRestart] = useState<boolean>(true);
   const [sleep, setSleep] = useState<boolean>(false);
 
   const shutMac = (e: React.MouseEvent): void => {

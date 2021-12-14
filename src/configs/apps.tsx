@@ -3,6 +3,7 @@ import Terminal from "../components/apps/Terminal";
 import Safari from "../components/apps/Safari";
 import Bear from "../components/apps/Bear";
 import VSCode from "../components/apps/VSCode";
+import Tubon from "../components/apps/Turbon"
 
 import type { AppsData } from "../types";
 
@@ -17,7 +18,7 @@ const apps: AppsData[] = [
     id: "bear",
     title: "Bear",
     desktop: true,
-    show: true,
+    show: false,
     width: 860,
     height: 500,
     img: "img/icons/bear.png",
@@ -43,6 +44,14 @@ const apps: AppsData[] = [
     content: <VSCode />
   },
   {
+    id: "turbon",
+    title: "Turbon",
+    desktop: true,
+    show: false,
+    img: "img/icons/louis-logo.png",
+    content: <Tubon />
+  },
+  {
     id: "facetime",
     title: "FaceTime",
     desktop: true,
@@ -64,14 +73,14 @@ const apps: AppsData[] = [
     title: "Mail",
     desktop: false,
     img: "img/icons/mail.png",
-    link: "mailto:renovamenzxh@gmail.com"
+    link: "mailto:EricAaron123@outlook.com"
   },
   {
     id: "github",
     title: "Github",
     desktop: false,
     img: "img/icons/github.png",
-    link: "https://github.com/Renovamen/playground-macos"
+    link: "https://github.com/louisyoungx/"
   }
 ];
 

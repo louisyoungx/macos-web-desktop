@@ -9,7 +9,7 @@ interface BootProps {
 }
 
 const loadingInterval = 1;
-const bootingInterval = 500;
+const bootingInterval = 100;
 
 export default function Boot({ restart, sleep, setBooting }: BootProps) {
   const [loading, setLoading] = useState<boolean>(false);
@@ -21,7 +21,7 @@ export default function Boot({ restart, sleep, setBooting }: BootProps) {
 
   useInterval(
     () => {
-      const newPercent = percent + 0.15;
+      const newPercent = percent + 0.30;
       if (newPercent >= 100) {
         setTimeout(() => {
           setBooting(false);

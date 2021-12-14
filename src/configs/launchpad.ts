@@ -1,66 +1,84 @@
 import type { LaunchpadData } from "../types";
 
 const launchpadApps: LaunchpadData[] = [
+  // {
+  //   id: "cube",
+  //   title: "Cube Solver",
+  //   img: "img/icons/launchpad/cube.png",
+  //   link: "https://cube.zxh.io/"
+  // },
   {
-    id: "flint",
-    title: "Flint",
-    img: "img/icons/launchpad/flint.png",
-    link: "https://github.com/Renovamen/flint"
+    id: "turbon-manager",
+    title: "Turbon Manager",
+    img: "img/icons/louis-logo.png",
+    link: "http://tiny.rocke.top"
   },
   {
-    id: "metallic",
-    title: "Metallic",
-    img: "img/icons/launchpad/meta.png",
-    link: "https://github.com/Renovamen/metallic"
+    id: "vscode-cloud",
+    title: "VSCode-Cloud",
+    img: "img/icons/vscode.png",
+    link: "https://code.rocke.top/?folder=%2Fhome%2Flouis"
   },
   {
-    id: "alkaid",
-    title: "Alkaid",
-    img: "img/icons/launchpad/rl.png",
-    link: "https://github.com/Renovamen/alkaid"
+    id: "vscode-site",
+    title: "VSCode-Site",
+    img: "img/icons/vscode.png",
+    link: "http://www.louisyoung.site:10008/"
   },
   {
-    id: "oh-vue-icons",
-    title: "Oh, Vue Icons!",
-    img: "img/icons/launchpad/icon.png",
-    link: "https://oh-vue-icons.netlify.app/"
+    id: "jupyter-lab",
+    title: "Jupyter Lab",
+    img: "img/icons/jupyter.svg",
+    link: "http://www.louisyoung.site:8001/lab"
   },
   {
-    id: "gungnir",
-    title: "Gungnir",
-    img: "img/icons/launchpad/gungnir.png",
-    link: "https://vuepress-theme-gungnir.vercel.app/"
+    id: "goland",
+    title: "Goland",
+    img: "img/icons/goland.svg",
+    link: "http://www.louisyoung.site:10051/?notSecureWarning=false"
   },
   {
-    id: "what-if",
-    title: "My Notebook",
-    img: "img/icons/launchpad/notebook.png",
-    link: "https://note.zxh.io"
+    id: "clion",
+    title: "Clion",
+    img: "img/icons/clion.svg",
+    link: "http://www.louisyoung.site:10052/?notSecureWarning=false"
   },
   {
-    id: "cube",
-    title: "Cube Solver",
-    img: "img/icons/launchpad/cube.png",
-    link: "https://cube.zxh.io/"
+    id: "intellij",
+    title: "intellij",
+    img: "img/icons/intellij.svg",
+    link: "http://www.louisyoung.site:10053/?notSecureWarning=false"
   },
   {
-    id: "resume",
-    title: "Résumé",
-    img: "img/icons/launchpad/resume.png",
-    link: "https://resume.zxh.io/"
+    id: "webStorm",
+    title: "WebStorm",
+    img: "img/icons/webstorm.svg",
+    link: "http://www.louisyoung.site:10054/?notSecureWarning=false"
   },
   {
-    id: "zelda",
-    title: "Webpage for Zelda",
-    img: "img/icons/launchpad/zelda.png",
-    link: "https://zelda.zxh.io/"
+    id: "pycharm",
+    title: "Pycharm",
+    img: "img/icons/pycharm.svg",
+    link: "http://www.louisyoung.site:10055/?notSecureWarning=false"
   },
   {
-    id: "fishmail",
-    title: "Fishmail",
-    img: "img/icons/launchpad/fishmail.png",
-    link: "https://fishmail.vercel.app/"
-  }
+    id: "centos-server",
+    title: "CentOS-Server",
+    img: "img/icons/centos.svg",
+    link: "http://www.louisyoung.site:1015/CentOS/"
+  },
+  {
+    id: "louis-nas",
+    title: "LOUIS-NAS",
+    img: "img/icons/drive.svg",
+    link: "http://www.louisyoung.site:5000/"
+  },
+  {
+    id: "esxi",
+    title: "ESXi",
+    img: "img/icons/esxi.svg",
+    link: "https://www.louisyoung.site:4430/ui/#/login"
+  },
 ];
 
 export default launchpadApps;
